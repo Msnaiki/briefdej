@@ -1,0 +1,58 @@
+body{
+    background-image: url("images/body_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    .container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        .left{
+            background-image: url("images/menu.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 50%;
+            display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1,h2{
+            text-align: center;
+        }
+        .image{
+            display: flex;
+            justify-content: center;
+            
+            img{
+                width: 70%;border-radius:15px ;
+                max-height: 500px;
+            }
+        }
+        
+    
+        }
+        .right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            form{
+                background: #E6D6B4;
+                padding: 2%;
+                border-radius:15px ;
+                .form-group{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            
+        }
+        
+    
+        
+    }
+
+}
